@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  background: #01295e;
+}
+
+h1 {
+    color: #ffffff;
+    text-align: center;
+    margin-top: 30px;
+}
+
+img {
+  width: 100%;
+}
+
+p {
+  color: #ffffff;
+  margin: 30px;
+  font-size: 24px;
+}
+
+input {
+  display: block;
+  background: #f9f9f9;
+  border: 1px solid #e6e6e6;
+  border-radius: 5px;
+  height: 50px;
+  width: 352px;
+  margin-bottom: 20px;
+}
+
+textarea {
+  display: block;
+  background: #f9f9f9;
+  border: 1px solid #e6e6e6;
+  border-radius: 5px;
+  height: 100px;
+  width: 352px;
+  margin-bottom: 20px;
+}
+
+form {
+  background: #ffffff;
+  padding: 20px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  border-radius: 10 px;
+  opacity: 0;
+  transition:opacity 1s;
+}
+
+button {
+  background: #40bb15;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  width: 177px;
+  cursor: pointer;
+  color:#ffffff
+}
+
+.voltar {
+  background: gray;
+  
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.contato {
+position:static;
+top:90%;
+right:90%
+
+}
+
+div {
+  transition:opacity 1s;
+}
+
+.contato {
+  position: absolute;
+  top: 1%;
+  left: 87%;
+  right: 100%;
+  padding: 10px;
+}
